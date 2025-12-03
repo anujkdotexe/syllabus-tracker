@@ -10,7 +10,7 @@ export interface SyllabusTopic {
     id: string;
     title: string;
     completed: boolean;
-    resourceLink?: string;
+    resourceLink?: string | null;
 }
 
 interface SyllabusItemProps {

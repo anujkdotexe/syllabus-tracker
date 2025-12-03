@@ -11,5 +11,5 @@ export default async function Home() {
   // Prisma returns dates as Date objects, but Client Components can handle them if passed from Server Components in Next.js 13+ (they get serialized).
   // However, it's safer to ensure they are compatible.
 
-  return <SyllabusTracker initialSubjects={subjects as any} />;
+  return <SyllabusTracker initialSubjects={subjects} />;
 }
